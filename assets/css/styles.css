@@ -1,0 +1,89 @@
+header{
+    background-image: url("https://spark.ru/upload/other/b_569d17e6aa5cf.jpg");
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 450px;
+    opacity: 0.8;
+}
+div{
+    display: block;
+}
+.readmore{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+body{
+    margin: 0;
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    display:block;
+}
+#section-a{
+    background-color: #fff;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+.column{
+   column-count: 2; 
+}
+#kind{
+    background-color: grey;
+    padding: 2em 1em 1em;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 180px;
+}
+.card-content {
+    padding: 1.5em;
+}
+.card{
+    display: block;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    width: 31%;
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+#section-d{
+    display: flex;
+}
+#section-d .box:first-child {
+    background: #2690d4;
+}
+#section-d .box {
+    padding: 2em;
+    color: #fff;
+    background: rgb(73, 69, 69);
+    width: 100%;
+}
+footer{
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    columns: 2;
+}
+footer a {
+    color: #2690d4;
+    text-decoration: none; 
+}
