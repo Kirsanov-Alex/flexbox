@@ -20,6 +20,10 @@ div{
     border: 1px solid #666;
     margin: 0.5em 0;
 }
+a.readmore:hover{
+    color: black;
+    background-color: #fff;
+}
 body{
     margin: 0;
     background: #333;
@@ -44,7 +48,7 @@ body{
 img{
     display: block;
     width: 100%;
-    height: 180px;
+    height: 100%;
 }
 .card-content {
     padding: 1.5em;
@@ -86,4 +90,12 @@ footer{
 footer a {
     color: #2690d4;
     text-decoration: none; 
+}
+@media (max-width: 750px){
+    ul{
+        flex-direction: column;
+    }
+    li{
+        width: 100%;
+    }
 }
