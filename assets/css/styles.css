@@ -1,5 +1,5 @@
 header{
-    background-image: url("https://spark.ru/upload/other/b_569d17e6aa5cf.jpg");
+    background-image: url("https://thumbs.dreamstime.com/b/%D0%BA%D0%BE-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B-53745689.jpg");
     background-repeat:  no-repeat;
     background-position: center;
     background-size: cover;
@@ -91,11 +91,32 @@ footer a {
     color: #2690d4;
     text-decoration: none; 
 }
-@media (max-width: 750px){
+@media (max-width: 700px){
     ul{
         flex-direction: column;
     }
     li{
         width: 100%;
+    }
+    footer{
+        columns: 1;
+    }
+    #section-d{
+        flex-direction: column;
+    }
+    #section-d .box{
+        padding: 0em;
+    }
+}
+.animation{
+    animation-name: slide;
+    animation-duration: 2s;
+}
+@keyframes slide{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-right: 100%;
     }
 }
