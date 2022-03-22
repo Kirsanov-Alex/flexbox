@@ -101,6 +101,9 @@ footer a {
     footer{
         columns: 1;
     }
+    .column{
+        column-count: 1;
+    }
     #section-d{
         flex-direction: column;
     }
